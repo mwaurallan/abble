@@ -16,8 +16,8 @@ class AdminsTableSeeder extends Seeder
         $faker = Faker::create();
         Admin::create(
             [
-                'name' => 'Liz Munyua',
-                'email' => 'elizabeth@crosscutsolutions.co.ke',
+                'name' => 'Anne Mureithi',
+                'email' => 'anne@gmail.com',
                 'type' => 'superadmin',
                 'email_verified' => 'yes',
                 'password' => Hash::make('123456')
@@ -26,7 +26,7 @@ class AdminsTableSeeder extends Seeder
         );
         Admin::create(
             [
-                'name' => 'Alex Munyua',
+                'name' => 'Mwaura Sam',
                 'email' => 'admin@localhost.com',
                 'type' => 'superadmin',
                 'email_verified' => 'yes',
